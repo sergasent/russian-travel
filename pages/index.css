@@ -1,0 +1,17 @@
+/*  index.css  */
+
+
+/*  normalize  */
+@import url('../vendor/normalize.css');
+
+
+/*  fonts  */
+@import url('../vendor/fonts/fonts.css');
+
+
+/*  root  */
+@import url('../blocks/root/root.css');
+
+
+/*  page  */
+@import url('../blocks/page/page.css');
