@@ -15,3 +15,12 @@
 
 /*  page  */
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__link/page__link.css');
+
+
+/*  header  */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__languages/header__languages.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_current/header__lang-link_current.css');

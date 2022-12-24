@@ -1,0 +1,27 @@
+.header__languages {
+  margin: 0;
+  padding: 0 0 .32em;
+
+  display: flex;
+
+  list-style-type: none;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+
+/*  Add margin-right for all not-last-childs of .header__languages */
+.header__languages > :not(:last-child) {
+  margin-right: 18px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .header__languages {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

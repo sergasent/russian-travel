@@ -1,0 +1,10 @@
+.header__lang-link {
+  text-decoration: none;
+}
+
+.header__lang-link:link,
+.header__lang-link:visited {
+  color: #FFFFFF;
+}
+
+
