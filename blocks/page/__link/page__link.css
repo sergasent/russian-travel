@@ -1,9 +1,9 @@
 .page__link {
-  transition: text-shadow 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .page__link:hover {
-  text-shadow: 0 0 5px #e3b26f;
+  opacity: 0.8;
 }
 
 .page__link:focus {
