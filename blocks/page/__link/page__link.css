@@ -2,6 +2,11 @@
   transition: opacity 0.2s ease;
 }
 
+.cover__link:link,
+.cover__link:visited {
+  color: #FFFFFF;
+}
+
 .page__link:hover {
   opacity: 0.8;
 }
