@@ -1,9 +1,15 @@
 .intro {
   max-width: 984px;
-  padding: 92px 0 0 48px;
+  padding: 92px 0 0 100px;
 
   align-self: flex-start;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding: 92px 0 0 48px;
+  }
 }
 
 
