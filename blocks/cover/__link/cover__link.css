@@ -10,6 +10,8 @@
 
   text-decoration: none;
 
+  transition: background 0.5s ease-out;
+
   box-sizing: border-box;
 }
 
@@ -20,6 +22,8 @@
 
 .cover__link:hover {
   background: rgba(42, 44, 47, 0.8);
+
+  transition: background 0.3s ease;
 }
 
 @media screen and (max-width: 1279px) {
