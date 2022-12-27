@@ -1,13 +1,4 @@
 .cover__background {
-  max-width: 1184px;
-
-  position: absolute;
-  z-index: -1;
+  width: 100%;
 }
 
-
-@media screen and (max-width: 1279px) {
-  .cover__background {
-    max-width: 1024px;
-  }
-}

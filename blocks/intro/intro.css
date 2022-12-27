@@ -1,19 +1,28 @@
 .intro {
+  width: 100%;
   max-width: 984px;
-  padding: 92px 0 0 100px;
+  padding: 92px 0 0;
 
-  align-self: flex-start;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1097px) {
   .intro {
-    padding: 92px 0 0 48px;
+    width: 90vw;
+    padding: 92px 0 0;
   }
 }
 
+
 @media screen and (max-width: 1023px) {
   .intro {
+    padding: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 948px) {
+  .intro {
+    width: 100%;
     padding: 88px 24px 0;
   }
 }
