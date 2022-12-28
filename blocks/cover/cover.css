@@ -1,4 +1,12 @@
 .cover {
+  width: 1184px;
   position: relative;
 }
 
+
+
+@media screen and (max-width: 1201px) {
+  .cover {
+    width: 100%;
+  }
+}
