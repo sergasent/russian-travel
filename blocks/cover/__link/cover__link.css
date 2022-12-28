@@ -10,7 +10,7 @@
   position: relative;
   z-index: 3;
 
-  background: url('../../../images/1280/cover/__background.jpg') center / cover ;
+  background: url('../../../images/1280/cover/__background.jpg') center / cover;
 
   text-decoration: none;
 
@@ -47,5 +47,4 @@
     min-height: 62.5vw;
   }
 }
-
-/*  Большое спасибо за ревью! С наступающим вас :)   */
+/*  Большое спасибо за ревью! С наступающим вас :)  */
