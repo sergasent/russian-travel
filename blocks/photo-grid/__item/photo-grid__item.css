@@ -1,22 +1,8 @@
 .photo-grid__item {
-  max-height: 213px;
-}
+  min-height: 213px;
+  width: 100%;
+  display: block;
 
-
-@media screen and (max-width: 1279px) {
-  .photo-grid__item {
-    min-height: 225px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .photo-grid__item {
-    min-height: 264px;
-  }
-}
-
-@media screen and (max-width: 390px) {
-  .photo-grid__item {
-    min-height: 216px;
-  }
+  object-fit: cover;
+  aspect-ratio: 284 / 213;
 }
