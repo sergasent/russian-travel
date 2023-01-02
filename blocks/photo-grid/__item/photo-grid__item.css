@@ -3,6 +3,8 @@
   width: 100%;
   display: block;
 
-  object-fit: cover;
+  -o-object-fit: cover;
+
+     object-fit: cover;
   aspect-ratio: 284 / 213;
 }

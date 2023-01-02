@@ -1,5 +1,7 @@
 .place__website {
-  align-self: end;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
 }
 
 
@@ -7,6 +9,8 @@
   .place__website {
     padding: 0 16px;
 
-    align-self: flex-start;
+    -ms-flex-item-align: start;
+
+        align-self: flex-start;
   }
 }
